@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/twiggy/CLion/Calculator/add.h
+string.h
+-
+stdio.h
+-
+assert.h
+-
+stdlib.h
+-
+
+/Users/twiggy/CLion/Calculator/main.c
+add.h
+/Users/twiggy/CLion/Calculator/add.h
+
